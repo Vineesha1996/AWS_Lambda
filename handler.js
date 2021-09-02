@@ -8,7 +8,7 @@ module.exports.hello = async (event,context) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message:'Hey Hi,This is your IP Address'+IpAddress+" It's test api",
+        message:'Hey Hi,This is your IP Address '+IpAddress+" It's test api",
         sourceIp:IpAddress
       },
       null,
